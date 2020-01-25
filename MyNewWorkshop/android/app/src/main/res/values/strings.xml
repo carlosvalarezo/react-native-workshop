@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyNewWorkshop</string>
+    <string name="title_activity_java_module">JavaModuleActivity</string>
+</resources>
