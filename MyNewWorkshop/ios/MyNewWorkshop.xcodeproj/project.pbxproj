@@ -24,6 +24,8 @@
 		888E553423DB99270045EF6B /* SwiftViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 888E553323DB99270045EF6B /* SwiftViewManager.m */; };
 		88A95FA423DA4A5500A0E744 /* Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A95FA323DA4A5500A0E744 /* Swift.swift */; };
 		88A95FA623DA4BE800A0E744 /* Swift.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A95FA523DA4BE800A0E744 /* Swift.m */; };
+		88FBB09023E3A402006A2CF7 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FBB08F23E3A402006A2CF7 /* SwiftUIView.swift */; };
+		88FBB09223E3A483006A2CF7 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88FBB09123E3A483006A2CF7 /* View.xib */; };
 		D3F2ED806AA8FB47A48BF414 /* libPods-MyNewWorkshop-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 250448EB831D1975027AF2EC /* libPods-MyNewWorkshop-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +73,8 @@
 		88A95FA223DA4A5500A0E744 /* MyNewWorkshop-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyNewWorkshop-Bridging-Header.h"; sourceTree = "<group>"; };
 		88A95FA323DA4A5500A0E744 /* Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift.swift; sourceTree = "<group>"; };
 		88A95FA523DA4BE800A0E744 /* Swift.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Swift.m; sourceTree = "<group>"; };
+		88FBB08F23E3A402006A2CF7 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		88FBB09123E3A483006A2CF7 /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		954B07F61123EEEFA8F1992F /* Pods-MyNewWorkshop-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyNewWorkshop-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-MyNewWorkshop-tvOS/Pods-MyNewWorkshop-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		9DEE25339429D13907EF5078 /* Pods-MyNewWorkshop-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyNewWorkshop-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-MyNewWorkshop-tvOSTests/Pods-MyNewWorkshop-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		A1B4729C5671606451A23EED /* libPods-MyNewWorkshopTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyNewWorkshopTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -170,6 +174,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				88FBB09123E3A483006A2CF7 /* View.xib */,
+				88FBB08F23E3A402006A2CF7 /* SwiftUIView.swift */,
 				888E553323DB99270045EF6B /* SwiftViewManager.m */,
 				888E552F23DB969D0045EF6B /* SwiftView.swift */,
 				888E553123DB97FC0045EF6B /* SwiftViewManager.swift */,
@@ -358,6 +364,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				88FBB09223E3A483006A2CF7 /* View.xib in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -599,6 +606,7 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				88A95FA423DA4A5500A0E744 /* Swift.swift in Sources */,
+				88FBB09023E3A402006A2CF7 /* SwiftUIView.swift in Sources */,
 				888E553023DB969D0045EF6B /* SwiftView.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				888E553223DB97FC0045EF6B /* SwiftViewManager.swift in Sources */,

@@ -14,6 +14,17 @@ class SwiftView: UIView {
                                       height: 50))
     label.text = "Swift ui"
     label.textAlignment = .center
+    
+    let bundle = Bundle(for: type(of: self))
+    let nib = UINib(nibName: "View", bundle: bundle)
+    let view = nib.instantiate(withOwner: self, options: nil)[0] as! UIView
+    view.frame = bounds
+    view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+    
+    
+    self.addSubview(label)
+    self.addSubview(view)
+    
     self.addSubview(label)
     
   }
